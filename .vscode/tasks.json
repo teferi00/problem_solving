@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Tester",
+            "type": "shell",
+            "command": "python3 ${workspaceFolder}/utils/tester.py ${file}",
+            "__args_unused": [
+                "${workspaceFolder}/utils/tester.py",
+                "${file}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+    ]
+}

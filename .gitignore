@@ -208,4 +208,8 @@ __marimo__/
 
 # Personal stuffs
 utils/
-
+teflib/
+*_inline.py
+_template.py
+*_local.py
+ruff.toml

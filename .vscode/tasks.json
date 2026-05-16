@@ -7,13 +7,19 @@
             "label": "Tester",
             "type": "shell",
             "command": "python3 ${workspaceFolder}/utils/tester.py ${file}",
-            "__args_unused": [
-                "${workspaceFolder}/utils/tester.py",
-                "${file}"
-            ],
             "problemMatcher": [],
             "group": {
                 "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Inliner",
+            "type": "shell",
+            "command": "python3 ${workspaceFolder}/utils/inliner.py ${file}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
                 "isDefault": true
             }
         },

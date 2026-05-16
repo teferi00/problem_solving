@@ -1,0 +1,12 @@
+Sample Input 1
+1817181712114
+Sample Output 1
+3
+Sample Input 2
+14282668646
+Sample Output 2
+2
+Sample Input 3
+2119
+Sample Output 3
+0
